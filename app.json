@@ -1,0 +1,14 @@
+{
+    "lang": {
+        "pt": {
+            "skills": {
+                "title": "HABILIDADES",
+                "subtitle": [
+                    "HTML",
+                    "CSS",
+                    "JAVASCRIPT"
+                ]
+            }
+        }
+    }
+}
