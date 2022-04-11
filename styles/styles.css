@@ -1,0 +1,28 @@
+@import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Rubik:wght@300;400;500&display=swap');
+
+:root {
+
+    --font-family-1: 'Bebas Neue', cursive;
+    --font-family-2: 'Rubik', sans-serif;
+
+    --fw-light: 300;
+    --fw-medium: 400;
+    --fw-bold: 500;
+
+    --gray-1: #333333;
+    --gray-2: #4f4f4f;
+    --gray-3: #828282;
+    --gray-4: #BDBDBD;
+    --gray-5: #E0E0E0;
+
+}
+
+body {
+    margin: 0;
+    padding: 0;
+    text-decoration: none;
+    display: flex;
+    justify-content: center;
+    background-color: var(--tertiary-color);
+
+}
