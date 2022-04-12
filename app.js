@@ -1,4 +1,12 @@
 const toggle = document.querySelector('.btn__language input')
+const imgs =
+    [
+        star = 'img/star.svg',
+        gamepad = 'img/Gamepad_lights.svg',
+        monitor = 'img/monitor.svg',
+        camera = 'img/camera.svg',
+        record = 'img/record.svg'
+    ]
 
 const body = document.querySelector('.container__body')
 
