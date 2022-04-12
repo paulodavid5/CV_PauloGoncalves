@@ -34,8 +34,8 @@ body {
 }
 
 .profile__details img {
-    width: 16px;
-    height: 16px;
+    width: 24px;
+    height: 24px;
 }
 
 .profile_contact,
@@ -77,6 +77,19 @@ body {
         display: flex;
     }
 
+    .profile__details img {
+        width: 24px;
+        height: 24px;
+    }
+
+    .header__details {
+        display: flex;
+        width: 100%;
+        flex-direction: column;
+        justify-content: flex-end;
+        flex-wrap: wrap;
+    }
+
     .profile__info {
         display: flex;
         flex-direction: row;
@@ -102,6 +115,7 @@ body {
 
     .profile__details {
         padding: 1rem;
+        line-height: 0.5rem;
     }
 
     .container__body {
@@ -144,6 +158,10 @@ body {
         background-color: var(--gray-2);
     }
 
+    .education_details p {
+        line-height: 1.5rem;
+    }
+
     .hobbies_icons {
         display: flex;
         flex-direction: row;
@@ -153,11 +171,12 @@ body {
 
     .right__container {
         width: 60%;
+        overflow: hidden;
     }
 
     .right__container_content {
         margin: 18px 0 0 18px;
-        height: 96%;
+        height: 100%;
         background-color: var(--gray-4);
     }
 
@@ -173,13 +192,18 @@ body {
     }
 
     .about_me p {
-        line-height: 1rem;
+        line-height: 1.8rem;
     }
 
     .experience {
         display: flex;
         flex-direction: column;
         padding: 1rem;
+        line-height: 1.8rem;
+    }
+
+    .experience h3 {
+        display: flex;
     }
 
     .experience_jobs {
@@ -211,7 +235,7 @@ p {
 
 h1 {
     font-weight: var(--fw-bold);
-    font-size: 40px;
+    font-size: 3rem;
     line-height: 50px;
     text-align: center;
     color: var(--gray-2);
@@ -219,7 +243,7 @@ h1 {
 
 h2 {
     font-weight: var(--fw-bold);
-    font-size: 24px;
+    font-size: 2rem;
     line-height: 30px;
     text-align: center;
     color: var(--gray-3);
@@ -227,34 +251,33 @@ h2 {
 
 h3 {
     font-weight: var(--fw-medium);
-    font-size: 20px;
+    font-size: 1.8rem;
     color: var(--gray-2);
     text-align: center;
 }
 
 h4 {
     font-weight: var(--fw-regular);
-    font-size: 14px;
+    font-size: 1.5rem;
+    line-height: 1px;
     color: var(--gray-3);
     text-align: left;
 }
 
 h5 {
     font-weight: var(--fw-regular);
-    font-size: 14px;
-    line-height: 16px;
+    font-size: 1.5rem;
+    line-height: 1px;
     text-align: center;
     color: var(--gray-2);
 }
 
 p {
     font-weight: var(--fw-regular);
-    font-size: 14px;
-    line-height: 2px;
+    font-size: 1.5rem;
     color: var(--gray-3);
 }
 
-/* LINES */
 
 /* BUTTON LANGUAGE */
 
