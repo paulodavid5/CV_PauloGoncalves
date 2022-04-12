@@ -11,29 +11,29 @@ body.innerHTML =
                     <div class="skills_info">
                         <h4>HTML</h4>
                         <span>
-                            <img src="/img/star.svg" alt="">
-                            <img src="/img/star.svg" alt="">
-                            <img src="/img/star.svg" alt="">
-                            <img src="/img/star.svg" alt="">
-                            <img src="/img/star.svg" alt="">
+                            <img src="img/star.svg" alt="">
+                            <img src="img/star.svg" alt="">
+                            <img src="img/star.svg" alt="">
+                            <img src="img/star.svg" alt="">
+                            <img src="img/star.svg" alt="">
                         </span>
                     </div>
                     <div class="skills_info">
                         <h4>CSS</h4>
                         <span>
-                            <img src="/img/star.svg" alt="">
-                            <img src="/img/star.svg" alt="">
-                            <img src="/img/star.svg" alt="">
-                            <img src="/img/star.svg" alt="">
-                            <img src="/img/star.svg" alt="">
+                            <img src="img/star.svg" alt="">
+                            <img src="img/star.svg" alt="">
+                            <img src="img/star.svg" alt="">
+                            <img src="img/star.svg" alt="">
+                            <img src="img/star.svg" alt="">
                         </span>
                     </div>
                     <div class="skills_info">
                         <h4>JAVASCRIPT</h4>
                         <span>
-                            <img src="/img/star.svg" alt="">
-                            <img src="/img/star.svg" alt="">
-                            <img src="/img/star.svg" alt="">
+                            <img src="img/star.svg" alt="">
+                            <img src="img/star.svg" alt="">
+                            <img src="img/star.svg" alt="">
                         </span>
                     </div>
                 </div>
@@ -62,10 +62,10 @@ body.innerHTML =
                 <div class="hobbies">
                     <h3>HOBBIES</h3>
                     <div class="hobbies_icons">
-                        <a href=""><img src="/img/Gamepad_light.svg" alt="Gaming"></a>
-                        <a href=""><img src="/img/monitor.svg" alt="Computer"></a>
-                        <a href=""><img src="/img/camera.svg" alt="Photos"></a>
-                        <a href=""><img src="/img/ball.svg" alt="Football"></a>
+                        <a href=""><img src="img/Gamepad_light.svg" alt="Gaming"></a>
+                        <a href=""><img src="img/monitor.svg" alt="Computer"></a>
+                        <a href=""><img src="img/camera.svg" alt="Photos"></a>
+                        <a href=""><img src="img/ball.svg" alt="Football"></a>
                     </div>
                 </div>
             </div>
@@ -83,7 +83,7 @@ body.innerHTML =
                     <div class="experience">
                         <h3>EXPERIÊNCIA</h3>
                         <div class="experience_jobs">
-                            <img src="/img/record.svg" alt="">
+                            <img src="img/record.svg" alt="">
                             <h5>MUSA SOFTWARE</h5>
                         </div>
                         <p>Estágio Curricular
@@ -120,29 +120,29 @@ toggle.addEventListener('click', () => {
                     <div class="skills_info">
                         <h4>HTML</h4>
                         <span>
-                            <img src="/img/star.svg" alt="">
-                            <img src="/img/star.svg" alt="">
-                            <img src="/img/star.svg" alt="">
-                            <img src="/img/star.svg" alt="">
-                            <img src="/img/star.svg" alt="">
+                            <img src="img/star.svg" alt="">
+                            <img src="img/star.svg" alt="">
+                            <img src="img/star.svg" alt="">
+                            <img src="img/star.svg" alt="">
+                            <img src="img/star.svg" alt="">
                         </span>
                     </div>
                     <div class="skills_info">
                         <h4>CSS</h4>
                         <span>
-                            <img src="/img/star.svg" alt="">
-                            <img src="/img/star.svg" alt="">
-                            <img src="/img/star.svg" alt="">
-                            <img src="/img/star.svg" alt="">
-                            <img src="/img/star.svg" alt="">
+                            <img src="img/star.svg" alt="">
+                            <img src="img/star.svg" alt="">
+                            <img src="img/star.svg" alt="">
+                            <img src="img/star.svg" alt="">
+                            <img src="img/star.svg" alt="">
                         </span>
                     </div>
                     <div class="skills_info">
                         <h4>JAVASCRIPT</h4>
                         <span>
-                            <img src="/img/star.svg" alt="">
-                            <img src="/img/star.svg" alt="">
-                            <img src="/img/star.svg" alt="">
+                            <img src="img/star.svg" alt="">
+                            <img src="img/star.svg" alt="">
+                            <img src="img/star.svg" alt="">
                         </span>
                     </div>
                 </div>
@@ -171,10 +171,10 @@ toggle.addEventListener('click', () => {
                 <div class="hobbies">
                     <h3>HOBBIES</h3>
                     <div class="hobbies_icons">
-                        <a href=""><img src="/img/Gamepad_light.svg" alt="Gaming"></a>
-                        <a href=""><img src="/img/monitor.svg" alt="Computer"></a>
-                        <a href=""><img src="/img/camera.svg" alt="Photos"></a>
-                        <a href=""><img src="/img/ball.svg" alt="Football"></a>
+                        <a href=""><img src="img/Gamepad_light.svg" alt="Gaming"></a>
+                        <a href=""><img src="img/monitor.svg" alt="Computer"></a>
+                        <a href=""><img src="img/camera.svg" alt="Photos"></a>
+                        <a href=""><img src="img/ball.svg" alt="Football"></a>
                     </div>
                 </div>
             </div>
@@ -192,7 +192,7 @@ toggle.addEventListener('click', () => {
                     <div class="experience">
                         <h3>EXPERIÊNCIA</h3>
                         <div class="experience_jobs">
-                            <img src="/img/record.svg" alt="">
+                            <img src="img/record.svg" alt="">
                             <h5>MUSA SOFTWARE</h5>
                         </div>
                         <p>Estágio Curricular
