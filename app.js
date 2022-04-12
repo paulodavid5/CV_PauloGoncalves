@@ -289,7 +289,7 @@ toggle.addEventListener('click', () => {
                         <img src="img/record.svg" alt="">
                         <h5>MUSA SOFTWARE</h5>
                     </div>
-                    <p>Estágio Curricular
+                    <p>Curricular Internship
                         (April - August 2021)
                     </p>
                 </div>
