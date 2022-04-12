@@ -29,151 +29,155 @@ body {
     background-color: var(--gray-3);
 }
 
-.container {
-    width: 100%;
-    background-color: var(--gray-5);
-    margin: 1.5rem 1.5rem 68px 1.5rem;
-    box-shadow: 0px 6px 10px 11px rgba(0, 0, 0, 0.25);
-    padding: 53px 45px 57px 55px;
-    position: relative;
-}
+@media screen and (min-width: 560px) {
 
-.header__img {
-    display: flex;
-    justify-content: center;
-}
+    .container {
+        width: 100%;
+        background-color: var(--gray-5);
+        margin: 1.5rem 1.5rem 68px 1.5rem;
+        box-shadow: 0px 6px 10px 11px rgba(0, 0, 0, 0.25);
+        padding: 53px 45px 57px 55px;
+        position: relative;
+    }
 
-.profile__details img {
-    width: 24px;
-    height: 24px;
-}
+    .header__img {
+        display: flex;
+        justify-content: center;
+    }
 
-.profile__info_left {
-    width: 100%;
-}
+    .profile__details img {
+        width: 24px;
+        height: 24px;
+    }
 
-.socials {
-    display: flex;
-    justify-content: center;
-}
+    .profile__info_left {
+        width: 100%;
+    }
 
-.socials img {
-    width: 2.25rem;
-}
+    .socials {
+        display: flex;
+        justify-content: center;
+    }
 
-.profile_contact,
-.profile_location,
-.profile_email,
-.profile_date {
-    display: flex;
-    justify-content: start;
-    align-items: center;
-    gap: 1.5rem;
-    line-height: 1px;
-}
+    .socials img {
+        width: 2.25rem;
+    }
 
-.profile__details {
-    padding: 1.5rem 0 1.5rem 0;
-}
+    .profile_contact,
+    .profile_location,
+    .profile_email,
+    .profile_date {
+        display: flex;
+        justify-content: start;
+        align-items: center;
+        gap: 1.5rem;
+        line-height: 1px;
+    }
 
-.container__body {
-    display: flex;
-    flex-direction: column;
-}
+    .profile__details {
+        padding: 1.5rem 0 1.5rem 0;
+    }
 
-.skills {
-    width: 100%;
-    display: flex;
-    flex-direction: column;
-}
+    .container__body {
+        display: flex;
+        flex-direction: column;
+    }
 
-.skills_info {
-    width: auto;
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-}
+    .skills {
+        width: 100%;
+        display: flex;
+        flex-direction: column;
+    }
 
-.skills_info img {
-    width: 1.25rem;
-}
+    .skills_info {
+        width: auto;
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+    }
 
-.languages {
-    padding-bottom: 1.5rem;
-}
+    .skills_info img {
+        width: 1.25rem;
+    }
 
-.languages_info {
-    width: auto;
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-}
+    .languages {
+        padding-bottom: 1.5rem;
+    }
 
-progress {
-    height: 20px;
-    width: 100px;
-    background: var(--gray-4);
-    border-radius: 50px;
-}
+    .languages_info {
+        width: auto;
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+    }
 
-::-webkit-progress-value {
-    background-color: var(--gray-2);
-}
+    progress {
+        height: 20px;
+        width: 100px;
+        background: var(--gray-4);
+        border-radius: 50px;
+    }
 
-::-moz-progress-bar {
-    background-color: var(--gray-2);
-}
+    ::-webkit-progress-value {
+        background-color: var(--gray-2);
+    }
 
-.education {
-    padding-bottom: 1.5rem;
-}
+    ::-moz-progress-bar {
+        background-color: var(--gray-2);
+    }
 
-.education_details h5 {
-    text-align: left;
-}
+    .education {
+        padding-bottom: 1.5rem;
+    }
 
-.education_details p {
-    text-align: center;
-    line-height: 1.5rem;
-}
+    .education_details h5 {
+        text-align: left;
+    }
 
-.education_details h5 {
-    text-align: center;
-    line-height: 16px;
-}
+    .education_details p {
+        text-align: center;
+        line-height: 1.5rem;
+    }
 
-.hobbies {
-    padding-bottom: 1.5rem;
-}
+    .education_details h5 {
+        text-align: center;
+        line-height: 16px;
+    }
 
-.hobbies_icons {
-    display: flex;
-    justify-content: space-evenly;
-    align-items: center;
-}
+    .hobbies {
+        padding-bottom: 1.5rem;
+    }
 
-.hobbies_icons img {
-    display: flex;
-    align-items: center;
-    width: 2.5rem;
-}
+    .hobbies_icons {
+        display: flex;
+        justify-content: space-evenly;
+        align-items: center;
+    }
 
-.about_me {
-    padding-bottom: 1.5rem;
-}
+    .hobbies_icons img {
+        display: flex;
+        align-items: center;
+        width: 2.5rem;
+    }
 
-.experience {
-    padding-bottom: 1.5rem;
-}
+    .about_me {
+        padding-bottom: 1.5rem;
+    }
 
-.experience_jobs {
-    display: flex;
-    align-items: center;
-    gap: 1.5rem;
-}
+    .experience {
+        padding-bottom: 1.5rem;
+    }
 
-.experience_jobs img {
-    width: 1.5rem;
+    .experience_jobs {
+        display: flex;
+        align-items: center;
+        gap: 1.5rem;
+    }
+
+    .experience_jobs img {
+        width: 1.5rem;
+    }
+
 }
 
 /* DESKTOP */
@@ -236,11 +240,13 @@ progress {
 
     .container__body {
         display: flex;
+        flex-direction: row;
     }
 
     .left__container {
         width: 40%;
         border-right: 2px solid var(--gray-2);
+        padding: 0 1.5rem 0 0;
     }
 
     .skills_info {
@@ -276,6 +282,7 @@ progress {
 
     .education_details p {
         line-height: 1.5rem;
+        text-align: left;
     }
 
     .hobbies_icons {
