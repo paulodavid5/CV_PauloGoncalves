@@ -66,7 +66,7 @@ body {
     display: flex;
     flex-wrap: wrap;
     flex-direction: column;
-    line-height: 1.5rem;
+    line-height: 0.5rem;
 }
 
 .profile_email {
@@ -75,6 +75,10 @@ body {
 
 .profile__details img {
     width: 1.8rem;
+}
+
+.profile__details p {
+    line-height: 1.2rem;
 }
 
 .container__body {
@@ -213,11 +217,14 @@ progress {
         justify-content: start;
         align-items: center;
         gap: 1.5rem;
-        line-height: 1px;
     }
 
     .profile__details {
         padding: 1.5rem 0 1.5rem 0;
+    }
+
+    .profile__details p {
+        line-height: 1.2rem;
     }
 
     .container__body {
@@ -363,7 +370,7 @@ progress {
     }
 
     .profile__info_left {
-        width: 40%;
+        width: 38%;
         border-right: 2px solid var(--gray-2);
         display: flex;
     }
@@ -383,13 +390,17 @@ progress {
         line-height: 0.5rem;
     }
 
+    .profile__details p {
+        line-height: 1.2rem;
+    }
+
     .container__body {
         display: flex;
         flex-direction: row;
     }
 
     .left__container {
-        width: 40%;
+        width: 38%;
         border-right: 2px solid var(--gray-2);
         padding: 0 1.5rem 0 0;
     }
@@ -426,7 +437,7 @@ progress {
 
     .education_details p {
         line-height: 1.5rem;
-        text-align: left;
+        text-align: center;
     }
 
     .hobbies_icons {
@@ -491,6 +502,17 @@ progress {
         color: var(--gray-5);
     }
 
+}
+
+@media screen and (min-width: 1200px) {
+    .container {
+        width: 80%;
+        background-color: var(--gray-5);
+        margin: 4rem 0 68px 0;
+        box-shadow: 0px 6px 10px 11px rgba(0, 0, 0, 0.25);
+        padding: 53px 45px 57px 55px;
+        position: relative;
+    }
 }
 
 
