@@ -467,6 +467,7 @@ progress {
 
     .about_me h3 {
         display: flex;
+        margin-top: 0;
     }
 
     .about_me p {
@@ -662,4 +663,19 @@ input:checked+.slider::before {
 button {
     all: unset;
     cursor: pointer;
+}
+
+#email {
+    cursor: pointer;
+}
+
+#email:hover {
+    background-color: var(--gray-2);
+    color: var(--gray-5);
+    padding: 0.1rem 0.5rem;
+    border-radius: 1.5rem;
+}
+
+.hobbies_icons a {
+    cursor: auto;
 }

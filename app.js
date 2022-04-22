@@ -307,3 +307,23 @@ function scrollFunction() {
 function topFunction() {
     window.scrollTo({ top: 0, behavior: 'smooth' });
 }
+
+// Send email function
+
+function sendMail() {
+    let link = "mailto:paulodaviddias8@gmail.com"
+        + "?cc="
+        + "&subject=" + encodeURIComponent("This is my subject")
+        + "&body=" + encodeURIComponent(document.getElementById('email').value)
+        ;
+
+    window.location.href = link;
+}
+
+// calling number
+
+const simulateCall = phoneNumber => window.open(`tel:${phoneNumber}`, `_self`);
+
+const callNumber = phoneNumber => () => {
+    simulateCall(phoneNumber);
+}
