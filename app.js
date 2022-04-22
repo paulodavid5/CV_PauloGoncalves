@@ -322,8 +322,7 @@ function sendMail() {
 
 // calling number
 
-const simulateCall = phoneNumber => window.open(`tel:${phoneNumber}`, `_self`);
 
-const callNumber = phoneNumber => () => {
-    simulateCall(phoneNumber);
+function callNumber() {
+    window.open('tel:926041485');
 }
