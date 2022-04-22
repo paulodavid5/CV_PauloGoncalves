@@ -326,3 +326,10 @@ function sendMail() {
 function callNumber() {
     window.open('tel:926041485');
 }
+
+// window loaded
+
+window.addEventListener("load", function () {
+    const loader = document.querySelector(".loader");
+    loader.className += " hidden";
+});
