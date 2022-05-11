@@ -515,7 +515,17 @@ progress {
     }
 }
 
+.experience_jobs h5 {
+    line-height: 0;
+}
 
+.languages_info {
+    flex-wrap: wrap;
+}
+
+.languages_info h4 {
+    width: 148px;
+}
 
 /* FONTS */
 
