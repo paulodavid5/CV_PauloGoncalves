@@ -190,6 +190,14 @@ progress {
         justify-content: center;
     }
 
+    .header__name {
+        font-size: 2rem;
+    }
+
+    .header__job {
+        font-size: 1.5rem;
+    }
+
     .profile__details img {
         width: 24px;
         height: 24px;
